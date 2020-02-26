@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ivy-template": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ivy-template"
+    }
+  },
+  "defaultProject": "ivy-template",
+  "cli": {
+    "analytics": "e4289367-341d-4ab1-89cf-3e54719a3861"
+  }
 }

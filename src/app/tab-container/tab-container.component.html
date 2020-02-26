@@ -1,0 +1,8 @@
+
+<ng-template #defaultTabButtons>
+  <div class="default-tab-buttons">fallback template</div>
+</ng-template>
+
+<ng-container 
+  *ngTemplateOutlet="headerTemplate ? headerTemplate: defaultTabButtons">    
+</ng-container>
