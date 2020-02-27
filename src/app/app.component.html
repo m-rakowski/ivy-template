@@ -2,14 +2,14 @@
 <div><button (click)="setLaptop()">render laptop form template</button></div>
 <hr/>
 
-<container-element [ngSwitch]="switch_expression">
+<ng-container [ngSwitch]="switch_expression">
   
     <tab-container [headerTemplate]="monitorFormTemplate"
      *ngSwitchCase="'monitor'"></tab-container>      
     
      <tab-container [headerTemplate]="laptopFormTemplate"
      *ngSwitchCase="'laptop'"></tab-container>      
-</container-element>
+</ng-container>
 
 
 <!-- templates -->
